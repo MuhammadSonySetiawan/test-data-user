@@ -7,16 +7,14 @@ import React from "react";
 import Home from "./pages/Home";
 import Login from "./pages/Login.jsx"
 
-
-
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home  />,
+    element: <Login  />,
   },
   {
-    path: "/login",
-    element: <Login />,
+    path: "/Home",
+    element: <Home />,
   },
 ]);
 

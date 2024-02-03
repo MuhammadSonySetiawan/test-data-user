@@ -15,7 +15,7 @@ function Login() {
         password,
       });
       console.log("Login Successful:", response.data);
-      Navigation("/");
+      Navigation("/Home");
       setError("");
     } catch (err) {
       console.error("Login Failed:", err.response.data.error);
@@ -55,12 +55,6 @@ function Login() {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
-        </div>
-        <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
-          <label class="form-check-label" for="exampleCheck1">
-            Check me out
-          </label>
         </div>
         <button type="submit" class="btn btn-primary" onClick={handleLogin}>
           Submit

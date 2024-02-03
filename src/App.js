@@ -1,8 +1,7 @@
 // import './App.css';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.min";
+
 // Pages
 import Home from "./pages/Home";
 import Login from "./pages/Login.jsx"
